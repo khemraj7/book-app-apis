@@ -5,7 +5,7 @@
 
 # Node artifact files
 node_modules/
-.env/
+./env
 
 ./package-lock.json
 ./publications.xml
