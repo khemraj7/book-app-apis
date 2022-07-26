@@ -1,7 +1,6 @@
 const User = require('../model/User')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const router = require('../routes/book')
 const { isValidObjectId } = require('mongoose')
 
 const signup = async (req, res, next) => {
